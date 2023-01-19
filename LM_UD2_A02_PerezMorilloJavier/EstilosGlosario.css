@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    border: 2px solid rgb(0, 0, 0);
+    
+    
+}
+
+header{
+display: flex;
+background-image: url("https://images.squarespace-cdn.com/content/v1/53aadf1de4b0a0a817640cca/1568390402787-GOHT4CR5ZC2CS7106V7L/videojuegos+en+la+academia.jpeg?format=1000w");
+height: 150px;
+justify-content: center;
+align-items: center;
+color: black;
+font-size: xx-large;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+#section {
+   
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://www.tuexperto.com/wp-content/uploads/2022/02/20-fondos-de-pantalla-para-pc-gamer-11.jpg.webp");
+    background-size: contain;
+}
+
+nav ol li{
+list-style: none;
+color: rgb(76, 0, 230);
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 4px;
+text-decoration-color: aliceblue;
+
+}
+
+nav ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid blue; 
+    padding: 10px; 
+    background-color: black; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif; 
+    text-decoration: none;
+        
+    
+}
+
+#volver{
+    position: fixed;
+    top: 10.5%;
+    right: 2%;
+    background-color:yellow;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px;
+}
+
+#articulo1{
+    
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 15px;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+
+}
+#articulo2{
+    
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 15px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    align-items: center;
+
+}
+#articulo3{
+    
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 15px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    align-items: center;
+
+}
+
+#articulo4{
+    color: white;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    align-items: center;
+    
+
+}
+
+#articulo5{
+    color: white;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    align-items: center;
+    
+
+}
+
+#articulo6{
+    color: white;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    align-items: center;
+    
+
+}
+
+#articulo7{
+    color: white;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    align-items: center;
+    
+
+}
+
+#articulo8{
+    color: white;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    align-items: center;
+
+    
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+  
+}
+
+p{
+    width: 100%;
+    display: flex;
+    text-align: justify;
+}
+
+@media (min-width: 1000px) {
+    body {
+    align: 20px;
+    }
+    div {
+    text-align: center;
+    }
+    }
+
